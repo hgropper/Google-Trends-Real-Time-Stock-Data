@@ -11,7 +11,7 @@ I would compare the current real-time search trends of stocks to other stocks! I
 I theorize if many people are researching about a company it is worth looking into. Maybe I could make a few trades myself (although I am not interested in that). I just want to maybe find a correlation between the search results (popularity) and a stock's intraday price.
 
 # Problems:
-- There are about 5000 companies I would like to constantly scan (search on google trends) real-time. Because of the mass amount of requests I used python [threading](https://docs.python.org/3/library/threading.html) to speed up this process. 
+- There are about 2000 companies I would like to constantly scan (search on google trends) real-time. Because of the mass amount of requests I used python [threading](https://docs.python.org/3/library/threading.html) to speed up this process. 
 - Google doesn't like when people are bombarding their servers with mutliple requests. Especially when thousands of requests are coming from one person or internet address. So, my IP address would frequently become blocked, and I would not be able to make requests.
 
 ### Solution!

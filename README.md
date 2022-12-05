@@ -14,5 +14,5 @@ I theorize if many people are researching about a company it is worth looking in
 - There are about 5000 companies I would like to constantly scan (search on google trends) real-time. Because of the mass amount of requests I used python [threading](https://docs.python.org/3/library/threading.html) to speed up this process. 
 - Google doesn't like when people are bombarding their servers with mutliple requests. Especially when thousands of requests are coming from one person or internet address. So, my IP address would frequently become blocked, and I would not be able to make requests.
 
-# Solution!
+### Solution!
 Rotate my IP address with [NordVPN](https://nordvpn.com/cybersecurity-site/), when needed. To do this in my program I used a module someone else created called [NordVPN Switcher](https://pypi.org/project/nordvpn-switcher/).
